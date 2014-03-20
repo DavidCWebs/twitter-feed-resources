@@ -6,7 +6,7 @@ function carawebs_newspage_twitter() {
 	// The header
 	?><h2 class="twitter_headline"><a href="http://twitter.com/EXP_Eng">@EXP_Eng</a></h2><?php
 	
-	if wp_is_mobile() { // Check to see if it is a mobile device
+	if (wp_is_mobile()) { // Check to see if it is a mobile device
 		
 		// If so, display a single tweet in a div class "shortbox"
 		
