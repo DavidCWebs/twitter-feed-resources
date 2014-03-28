@@ -1,5 +1,6 @@
 <?php
 /* News Page Twitter */
+// Based on this: https://github.com/stormuk/storm-twitter-for-wordpress/wiki/Example-code-to-layout-tweets
 
 function carawebs_newspage_twitter() {
 	
